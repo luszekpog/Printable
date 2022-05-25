@@ -1,0 +1,8 @@
+C:\Users\lukas\source\repos\Printable\Printable\bin\Debug\Printable.exe.config
+C:\Users\lukas\source\repos\Printable\Printable\bin\Debug\Printable.exe
+C:\Users\lukas\source\repos\Printable\Printable\bin\Debug\Printable.pdb
+C:\Users\lukas\source\repos\Printable\Printable\obj\Debug\Printable.csproj.AssemblyReference.cache
+C:\Users\lukas\source\repos\Printable\Printable\obj\Debug\Printable.csproj.SuggestedBindingRedirects.cache
+C:\Users\lukas\source\repos\Printable\Printable\obj\Debug\Printable.csproj.CoreCompileInputs.cache
+C:\Users\lukas\source\repos\Printable\Printable\obj\Debug\Printable.exe
+C:\Users\lukas\source\repos\Printable\Printable\obj\Debug\Printable.pdb
