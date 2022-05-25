@@ -10,23 +10,21 @@ namespace Printable
     {
         static void Main(string[] args)
         {
-            PrintFooterText();
+            DotFooter dot = new DotFooter();
+            StarFooter star = new StarFooter();
+            DashFooter dash = new DashFooter();
+            PrintFooterText(dot);
+            PrintFooterText(star);
+            PrintFooterText(dash);
 
             Console.ReadKey();
         }
 
-        private static void PrintFooterText()
+        private static void PrintFooterText(IPrintable printable)
         {
             string FooterText = "Example text";
 
-            DotFooter dot = new DotFooter();
-            dot.PrintFooterFormatted(FooterText);
-
-            StarFooter star = new StarFooter();
-            star.PrintFooterFormatted(FooterText);
-
-            DashFooter dash = new DashFooter();
-            dash.PrintFooterFormatted(FooterText);
+            printable.PrintFooterFormatted(FooterText);
         }
     }
 }
